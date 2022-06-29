@@ -12,10 +12,6 @@ resource "spacelift_context" "foo" {
   description = "Nice description"
   name        = "foo context"
 }
-resource "spacelift_context" "bar" {
-  description = "Awesome description"
-  name        = "bar context"
-}
 
 # resource "spacelift_policy" "no-weekend-deploys" {
 #   name = "Let's not deploy any changes over the weekend"
